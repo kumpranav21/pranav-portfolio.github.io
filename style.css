@@ -52,7 +52,7 @@ li{
     text-decoration: none;
 }
 .hero-text{
-    margin-left: 8rem;
+    margin-left: 6rem;
     margin-bottom: 20rem;
 }
 h1{
@@ -69,6 +69,11 @@ h3{
     margin: 0;
 }
 p{
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 100;
+}
+.about-me-text{
     margin: 0;
     font-size: 3rem;
     font-weight: 100;
@@ -189,11 +194,11 @@ a{
 }
 @media(max-width:500px){
     html{
-        font-size: 40%;
+        font-size: 43%;
     }
-    p{
+    .about-me-text{
         font-size: 2.5rem;
-         margin-left: 1.5rem;
+        margin-left: 2rem;
     }
 }
 @media only screen and (max-width: 1000px) {
