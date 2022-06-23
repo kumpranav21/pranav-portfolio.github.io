@@ -113,11 +113,11 @@ p{
     padding: 6rem;
 }
 .headshot{
-    width: 32rem;
-    height: 32rem;
+    width: 31rem;
+    height: 31rem;
     border: #808080;
     border-radius: 17rem;
-    margin: 2rem;
+    margin: 1.6rem;
 }
 .headshot-container{
     display: flex;
@@ -187,9 +187,13 @@ a{
         font-size: 55%;
     }
 }
-@media(max-width:768px){
+@media(max-width:500px){
     html{
-        font-size: 42%;
+        font-size: 40%;
+    }
+    p{
+        font-size: 2.5rem;
+        margin: 1rem;
     }
 }
 @media only screen and (max-width: 1000px) {
